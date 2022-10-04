@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+
         Person p1 = new Person(21, "Tien");
         System.out.println(p1);
 

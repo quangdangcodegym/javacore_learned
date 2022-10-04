@@ -20,9 +20,13 @@ public class Main {
     }
     public static void main(String[] args) {
         Person p1 = new Person(1, 20, "Dang Van Quang");
+        System.out.println(p1.hashCode());
         Person p2 = new Person(1, 20, "Dang Van Quang");
+        System.out.println(p2.hashCode());
 
-        //Hàm equals mặc định sẽ so sánh bằng địa chỉ p1 và p2 nên để 2 p1,p2 bằng nhau cần overide lại
+        
+
+        /*//Hàm equals mặc định sẽ so sánh bằng địa chỉ p1 và p2 nên để 2 p1,p2 bằng nhau cần overide lại
         // phương thức equals và hashcode
 
         // Phương thức toString trả về chuỗi địa chỉ của 2 đối tượng p1, p2
@@ -68,7 +72,7 @@ public class Main {
         String n1 = "com.codegym.streamapi.Person@49e4cb85";
         String n2 = "com.codegym.streamapi.Person@49e4cb85";
         System.out.println(n1.hashCode()); // -1056233990
-        System.out.println(n2.hashCode()); // -1056233990
+        System.out.println(n2.hashCode()); // -1056233990*/
 
     }
 }

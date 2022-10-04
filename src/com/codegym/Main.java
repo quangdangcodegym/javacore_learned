@@ -6,6 +6,7 @@ import com.codegym.equals.WrongVoucher;
 import com.codegym.logger.Log;
 
 import java.io.IOException;
+import java.util.Comparator;
 import java.util.logging.Level;
 
 
@@ -14,6 +15,8 @@ abstract class Person{
 }
 public class Main {
     public static void main(String[] args) throws IOException {
+
+
 	// write your code here
 //        Money income = new Money(55, "USD");
 //        Money expenses = new Money(55, "USD");
@@ -29,4 +32,10 @@ public class Main {
         my_log.logger.severe("Servere message");*/
 
     }
+}
+interface HinhHoc{}
+interface Bay{}
+
+interface Tron extends HinhHoc, Bay {
+
 }

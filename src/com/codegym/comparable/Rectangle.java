@@ -2,8 +2,7 @@ package com.codegym.comparable;
 
 public class Rectangle extends Shape{
     protected double width,height;
-    protected String color;
-    private boolean filled;
+
     public Rectangle() {
 
     }

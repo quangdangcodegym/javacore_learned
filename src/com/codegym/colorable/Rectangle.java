@@ -53,6 +53,8 @@ public class Rectangle extends Shape{
 
     @Override
     public String toString() {
+        String s = this.getClass().getName() + "@" + Integer.toHexString(hashCode());
+        System.out.println(s);
         return "Rectangle{" +
                 "width=" + width +
                 ", height=" + height +

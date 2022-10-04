@@ -11,6 +11,13 @@ public class TestShape {
         Log my_log = new Log("log.txt");
         my_log.logger.setLevel(Level.ALL);
 
+        Shape shape = new Rectangle(4.5, 4.5);
+        System.out.println(shape.getPerimeter());
+        System.out.println(shape);
+
+        Object shape1 = new Rectangle(4.5, 4.5);
+        //System.out.println(shape1.getPerimeter());
+
         // tạo mảng chứa các đối tượng
         /*Shape shapes[] = new Shape[3];
         shapes[0] = new Circle(5);
@@ -37,14 +44,14 @@ public class TestShape {
         // Shape lon
         //
         //int float
-        int a = 5;
-        float b = a;
-        Shape shape = new Shape();
-
-
-        Rectangle rectangle = new Rectangle();
-        shape = rectangle;
-        shape = new Circle();
+//        int a = 5;
+//        float b = a;
+//        Shape shape = new Shape();
+//
+//
+//        Rectangle rectangle = new Rectangle();
+//        shape = rectangle;
+//        shape = new Circle();
 
 
     }

@@ -1,6 +1,10 @@
 package com.codegym.streamapi;
 
+import java.util.Objects;
+
 public class Person {
+
+    Object a;
     int age;
     String name;
     String city;
@@ -29,4 +33,6 @@ public class Person {
     public void setCity(String city) {
         this.city = city;
     }
+
+
 }
